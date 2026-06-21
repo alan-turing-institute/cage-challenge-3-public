@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.python-version
+.ipynb_checkpoints/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Training / evaluation output (the released models live under models/ and are tracked)
+logs/
+ray_results/
+*.out
+*.png
+
+# CybORG source, if installed editable into the tree
+src/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

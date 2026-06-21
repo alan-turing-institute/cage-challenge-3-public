@@ -1,0 +1,17 @@
+# Conda environment for "Canaries and Whistles" (CAGE Challenge 3).
+# Reproduces the training/evaluation stack: Python 3.10, Ray/RLlib 2.2.0, PyTorch 1.13.1,
+# and the CAGE Challenge 3 CybORG fork (installed from a pinned commit via requirements.txt).
+#
+#   conda env create -f environment.yml
+#   conda activate cage-challenge-3
+#
+# Note: setuptools is pinned (in requirements.txt) to 65.5.1 because Ray 2.2.0 imports
+# `pkg_resources`, which setuptools >= 81 removed.
+name: cage-challenge-3
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - "-r requirements.txt"
