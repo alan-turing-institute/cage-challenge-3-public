@@ -93,8 +93,8 @@ train_baseline_PPO_FC_Canary_7_N_hot.py       train N learning agents amongst CW
 train_baseline_PPO_FC_Canary_7_N_hot_curriculum.py   train the Mixed Opera curriculum (M4)
 NHotEnv7.py                                   multi-agent env (revised obs, Table 4) mixing learners + CW experts
 MAPPODivRewParallelPettingZooEnv.py           RLlib wrapper splitting the team reward across agents
-CanaryAgent/                                  the symbolic Canaries-and-Whistles (CW) expert + obs wrappers
-environment.yml, requirements.txt             the software stack
+CanaryAgent/                                  heuristic Canaries-and-Whistles (CW) expert + obs wrappers
+environment.yml, requirements.txt             environment stack
 ```
 
 ## The environment
