@@ -1,7 +1,7 @@
 # Canaries and Whistles: Resilient Drone Communication Networks with (or without) Deep Reinforcement Learning
 
 Code and trained models for our AISec '23 paper on autonomous cyber defence in the third
-CAGE Challenge (the CybORG drone-swarm scenario). This repository is **sufficient to both *evaluate* the released models and *train* them from scratch.
+CAGE Challenge (the CybORG drone-swarm scenario). This repository is sufficient to both *evaluate* the released models and *train* them from scratch.
 
 Paper: <https://doi.org/10.48550/arXiv.2312.04940>
 
